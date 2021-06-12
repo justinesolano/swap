@@ -37,6 +37,9 @@ class Chart extends Component {
 <div className="row crypto-table" style={{ height: '470px', marginTop: '20px' }}>
 <div style={{ height:'5979px', backgroundColor: '#1D2330', border: '1px solid #282E3B', borderRadius: '4px', textAlign: 'right', lineHeight: '14px', fontSize: '12px', fontFeatureSettings: 'normal', textSizeAdjust: '100%', boxShadow: 'inset 0 -20px 0 0 #262B38', padding: '0px', margin: '0px', width: '400px' }}>
 <div style={{height: '5959px', padding: '0px', margin: '0px', width: '100%' }}>
+<div className="table-title" style={{display: 'flex', justifyContent:'center'}} >
+<h3>Crypto Prices</h3>
+</div>
 <iframe title="table" src='https://widget.coinlib.io/widget?type=full_v2&theme=dark&cnt=100&pref_coin_id=1508&graph=no' style={{ width:'100%', height:'5955px', overflow:'auto', marginWidth:'0', marginHeight:'0', frameBorder:'0', border:'0' }}>
 </iframe>
 </div>
